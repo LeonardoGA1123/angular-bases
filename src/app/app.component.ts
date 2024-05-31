@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 
 import { CounterModule } from './counter/components/counter.module';
 import { HeroModule } from './heroes/heroes.module';
+import { MainPageComponent } from './app/dbz/pages/main-page.component';
 
 
 @Component({
@@ -13,6 +14,8 @@ import { HeroModule } from './heroes/heroes.module';
 
     CounterModule,
     HeroModule,
+
+    MainPageComponent
 
   ],
   templateUrl: './app.component.html',
